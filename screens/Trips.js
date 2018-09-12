@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import { View, Text } from 'react-native'
 
-export default class Trips extends Component {
-    render(){
-        return(
-            <View> 
-                <Text> Trips Page </Text>
+class Trips extends Component {
+    render() {
+        return (
+            <View style={{ flex: 1, justifyContent: 'center',alignItems:'center' }}>
+                <Text> Explore Page </Text>
             </View>
         )
     }
 }
+
+export default Trips
